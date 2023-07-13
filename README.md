@@ -8,6 +8,12 @@ We are tasked to bring the pendulum to its upright position:-<br>
 i. By applying torque in the range -0.15 to 0.15 to the pendulum. (Continous Action space).<br>
 ii. By applying either -0.15 or 0.15 or no force at all to the pendulum (Discrete Action Space).
 
+## Pendulum Dimensions:-
+Length - 8cm <br>
+Mass - 400gm <br>
+Rod Mass - 10gm <br>
+Joint friciton - 0.01N 
+
 ## Agents used :-
 i. Deep Deterministic Policy Gradient (DDPG) is used for Continous action space.<br>
 ii. Deep Q Network (DQN) and Double Deep Q Network (DDQN) is used for Discrete action space.
