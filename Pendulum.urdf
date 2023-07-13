@@ -1,0 +1,61 @@
+<robot name="pendulum">
+    <link name="world" />
+  
+    <link name="pendulum_rod">
+        <visual>
+            <origin xyz="0 0 -0.04" />  
+            <geometry>
+                <cylinder length="0.08" radius="0.01" />
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1" />
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder length="0.08" radius="0.01" />
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.04" />
+            <origin xyz="0 0 -0.04" />
+            <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+        </inertial>
+    </link>
+
+    <link name="pendulum_blob">
+        <visual>
+            <origin xyz="0 0 -0.4" />  
+            <geometry>
+                <sphere radius="0.04" />
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1" />
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.04" />
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.4" />
+            <origin xyz="0 0 -0.4" />
+            <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+        </inertial>
+    </link>
+
+    <joint name="pendulum_joint" type="continuous">
+        <parent link="world" />
+        <child link="pendulum_rod" />
+        <origin xyz="0 0 0.4" />
+        <axis xyz="0 1 0" />
+        <limit effort="10" velocity="10" />
+        <dynamics damping="0.01" />
+    </joint>
+    <joint name="fixed_pendulum" type="fixed">
+        <origin xyz="0 0 0.3" />
+        <parent link="pendulum_rod" />
+        <child link="pendulum_blob" />
+    </joint>
+</robot>
