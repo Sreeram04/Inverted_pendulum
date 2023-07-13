@@ -11,7 +11,7 @@ ii. By applying either -0.15 or 0.15 or no force at all to the pendulum (Discret
 ## Pendulum Dimensions:-
 Length - 8cm <br>
 Mass - 400gm <br>
-Rod Mass - 10gm <br>
+Rod Mass - 40gm <br>
 Joint friciton - 0.01N 
 
 ## Agents used :-
