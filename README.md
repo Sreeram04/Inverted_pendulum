@@ -1,4 +1,4 @@
-# Inverted_pendulum
+# Inverted_pendulum in Pybullet
 
 This repository contains the Reinforcement learning agents that have been used to solve the inverted pendulum problem and the urdf file used to create the pendulum
 
