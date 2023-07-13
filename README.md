@@ -20,3 +20,5 @@ ii. Deep Q Network (DQN) and Double Deep Q Network (DDQN) is used for Discrete a
 
 ## Result :-
 Except for DQN the other agents were able to make the pendulum in a nearly stable upright position.
+
+## Note:- Some Variables are created and not used
