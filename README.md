@@ -8,7 +8,7 @@ We are tasked to bring the pendulum to its upright position:-<br>
 i. By applying torque in the range -0.15 to 0.15 to the pendulum. (Continous Action space).<br>
 ii. By applying either -0.15 or 0.15 or no force at all to the pendulum (Discrete Action Space).
 
-## Agents used:-
+## Agents used :-
 i. Deep Deterministic Policy Gradient (DDPG) is used for Continous action space.<br>
 ii. Deep Q Network (DQN) and Double Deep Q Network (DDQN) is used for Discrete action space.
 
