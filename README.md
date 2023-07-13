@@ -19,6 +19,7 @@ i. Deep Deterministic Policy Gradient (DDPG) is used for Continous action space.
 ii. Deep Q Network (DQN) and Double Deep Q Network (DDQN) is used for Discrete action space.
 
 ## Result :-
-Except for DQN the other agents were able to make the pendulum in a nearly stable upright position.
+Except for DQN the other agents were able to make the pendulum in a nearly stable upright position.<bt>
+Link to Result video :- https://youtu.be/sj55fVayNhQ
 
 ## Note:- Some Variables are created and not used
