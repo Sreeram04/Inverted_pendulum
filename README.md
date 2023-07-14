@@ -16,7 +16,8 @@ Joint friciton - 0.01N
 
 ## Agents used :-
 i. Deep Deterministic Policy Gradient (DDPG) is used for Continous action space.<br>
-ii. Deep Q Network (DQN) and Double Deep Q Network (DDQN) is used for Discrete action space.
+ii. Deep Q Network (DQN) and Double Deep Q Network (DDQN) is used for Discrete action space.<br>
+Note:- Code for agents were taken from other repositories and keras official documentation.
 
 ## Result :-
 Except for DQN the other agents were able to make the pendulum in a nearly stable upright position.<br>
